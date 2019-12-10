@@ -1,0 +1,176 @@
+/**
+ * Page: website.css
+ * Author: thabit oulali
+ * Description: Contains styling elements
+ *
+ * Revision history
+ * 0.1 01-08-2019 thabit oulali Initial version
+ * 0.2 14-10-2019 thabit oulali Updates after review
+ **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.discoverpuertorico.com/sites/default/files/2019-02/crashboat-beach-aguadilla-hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+ 
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    text-align: center;
+    transition: 0.6s ease;
+    border: 1px solid ;
+}
+
+
+ul li :active{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover  {
+    background-color: #fff;
+    color: #000;
+}
+
+iframe {
+    width: 460px;
+    height: 215px;
+    position: fixed;
+    left: 300px;
+    right: 400px;
+}
+
+
+.youtube {
+    width: 500px;
+    height: 320px;
+    margin-left: 60px;
+    margin-top: 220px;
+  }
+
+.text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 14px;
+}
+
+.bottom{
+    margin-top: 250px;
+    font-size: 18px;
+}
+
+.top {
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+.seven {
+    padding-top: 40px;
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+.nine {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.twenty {
+    padding-top: 290px;
+    width: 460px;
+    height: 215px;
+    position: fixed;
+    left: 300px;
+    right: 400px;
+}
+
+.eleven {
+    padding-top: 190px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+}
+
+
+
+
