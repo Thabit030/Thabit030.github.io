@@ -165,6 +165,8 @@ p {
 table,tr,td {
     background-color:#5F473E;
     border: 2px blue solid;
+    margin-left: 350px;
+    text-align: center;
 }
 
 th {    
@@ -176,6 +178,7 @@ td:nth-child(even) {
     color: black;
     background-color: #5f473e;
 }
+
 
 
 
