@@ -162,6 +162,22 @@ p {
     color: gold;
 }
 
+table,tr,td {
+    background-color:#5F473E;
+    border: 2px red solid;
+}
+
+th {    
+    color:#FFFFFF;
+    border: black 1px solid;
+}
+
+td:nth-child(even) {
+    color: black;
+    background-color: #5f473e;
+}
+
+
 
 
 
